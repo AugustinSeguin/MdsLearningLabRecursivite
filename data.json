@@ -1,0 +1,58 @@
+{
+    "name": "Accueil",
+    "url": "/",
+    "children": [
+        {
+            "name": "Produits",
+            "url": "/products",
+            "children": [
+                {
+                    "name": "Électronique",
+                    "url": "/products/elec",
+                    "children": [
+                        {
+                            "name": "PC Portables",
+                            "url": "/products/elec/laptops"
+                        },
+                        {
+                            "name": "Claviers",
+                            "url": "/products/elec/keyboards"
+                        },
+                        {
+                            "name": "Gaming",
+                            "url": "/products/elec/gaming",
+                            "children": [
+                                {
+                                    "name": "Consoles",
+                                    "url": "/products/elec/gaming/consoles"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Maison",
+                    "url": "/products/home"
+                }
+            ]
+        },
+        {
+            "name": "À propos",
+            "url": "/about"
+        },
+        {
+            "name": "Support",
+            "url": "/help",
+            "children": [
+                {
+                    "name": "FAQ",
+                    "url": "/help/faq"
+                },
+                {
+                    "name": "Contact",
+                    "url": "/help/contact"
+                }
+            ]
+        }
+    ]
+}
