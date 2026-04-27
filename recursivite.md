@@ -239,4 +239,3 @@ Développer une bibliothèque d'outils capables d'analyser et d'afficher une str
 
 - Chaque exercice doit utiliser une fonction récursive distincte.
 - Le code doit fonctionner quel que soit le nombre de niveaux dans le JSON.
-![alt text](image.png)
